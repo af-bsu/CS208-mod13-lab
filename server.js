@@ -26,5 +26,6 @@ app.get("/hello", function (request, response) {
 });
 
 app.listen(port);
+console.clear(); // My terminal kept getting too thick.
 console.log("Server started on port " + port);
 console.log("Hyperlink to the main page: http://localhost:8080")
